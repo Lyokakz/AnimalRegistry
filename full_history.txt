@@ -1,0 +1,31 @@
+    1  sudo apt update
+    2  clear
+    3  sudo apt install mc
+    4  mc
+    5  clear
+    6  sudo apt install openssh-server 
+    7  clear
+    8  mc
+    9  exit
+   10  ip a
+   11  systemctl status ssh
+   12  sudo apt update
+   13  sudo apt install gcc make perl
+   14  sudo reboot
+   15  sudo usermod -aG vboxsf db
+   16  systemctl status ssh
+   17  ssh -p2222 db@localhost
+   18  ssh -p 2222 db@localhost
+   19  [200~sudo apt update
+   20  sudo apt install mysql-server -y
+   21  sudo systemctl status mysql 
+   22  sudo apt -get install nano -y
+   23  sudo apt-get install nano -y
+   24  dpkg -l | grep nano
+   25  sudo dpkg -r nano
+   26  dpkg -l | grep nano
+   27  sudo dpkg --purge nano
+   28  dpkg -l | grep nano
+   29  history
+   30  history > history_commands.txt
+ФИО: Пугачева Елена\nПотока:17.04.2024\nДатаСдачи: 15-04-2025
